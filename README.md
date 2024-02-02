@@ -20,7 +20,7 @@ This repository contains a Java-based automation script designed to retrieve cur
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/sudhanshubgh/currentandnext14daysTemp.git
+   git clone https://github.com/sudhanshubgh/WeatherTemperatureAutomation.git
    ```
 
 2. Dependencies:
