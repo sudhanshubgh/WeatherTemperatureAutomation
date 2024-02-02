@@ -25,7 +25,7 @@ public class MinMaxTempNext10 {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='10 Day']")));
 		driver.findElement(By.xpath("//span[text()='10 Day']")).click();
 		
-		System.out.println("Currenta Temperature is " + driver.findElement(By.xpath("//div[@data-testid='ConditionsSummary']/div/span[@data-testid='TemperatureValue']")).getText());
+		System.out.println("Current Temperature is " + driver.findElement(By.xpath("//div[@data-testid='ConditionsSummary']/div/span[@data-testid='TemperatureValue']")).getText());
 		
 		List<WebElement> total_Temp = driver.findElements(By.xpath("//span[@class='DetailsSummary--highTempValue--3PjlX']"));
 		List<WebElement> day = driver.findElements(By.xpath("//h3[@data-testid='daypartName']"));
