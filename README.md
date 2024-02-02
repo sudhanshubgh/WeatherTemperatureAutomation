@@ -4,15 +4,15 @@ README.md Content:
 
 ## Overview
 
-This repository contains a Java-based automation script designed to retrieve current and 10-day forecast temperatures, including minimum and maximum values. The script utilizes Selenium WebDriver to interact with the weather.com website.
+This repository contains a Java-based automation script designed to retrieve current and 14-day forecast temperatures, including minimum and maximum values. The script utilizes Selenium WebDriver to interact with the weather.com website.
 
 ## Features
 
 - Current Temperature: Fetches the current temperature from the weather.com homepage.
   
-- 10-Day Forecast: Navigates to the 10-day weather forecast page and extracts temperature data for each day.
+- 14-Day Forecast: Navigates to the 14-day weather forecast page and extracts temperature data for each day.
   
-- Min and Max Temperature Analysis: Identifies the day with the minimum and maximum temperatures among the next 10 days.
+- Min and Max Temperature Analysis: Identifies the day with the minimum and maximum temperatures among the next 14 days.
 
 - User-Friendly Output: Results are printed to the console in a readable format, showcasing the current temperature and a detailed breakdown of upcoming temperatures with corresponding dates.
 
@@ -43,21 +43,25 @@ This repository contains a Java-based automation script designed to retrieve cur
 ## Example Output
 
 ```plaintext
-Current Temperature is 23°C
-
-Day 1: 28°
-Day 2: 29°
-Day 3: 27°
-Day 4: 25°
-Day 5: 24°
-Day 6: 26°
-Day 7: 23°
-Day 8: 25°
-Day 9: 28°
-Day 10: 30°
-
-Minimum Temperature: 23°C on Day 7
-Maximum Temperature: 30°C on Day 10
+Current Temperature is 10°
+ 
+Sat 03 20°
+Sun 04 18°
+Mon 05 18°
+Tue 06 18°
+Wed 07 17°
+Thu 08 17°
+Fri 09 18°
+Sat 10 18°
+Sun 11 19°
+Mon 12 19°
+Tue 13 20°
+Wed 14 21°
+Thu 15 21°
+Fri 16 22°
+ 
+17° is the minimum Temperature and on Wed 07
+22° is the maximum Temperature and on Fri 16
 ```
 
 ## License
